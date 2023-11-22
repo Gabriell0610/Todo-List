@@ -16,4 +16,4 @@ Projeto não contém responsividade, pois foi criado apenas para melhorar o conh
 
 ### Acesse o projeto pelo link abaixo
 
-<a href="https://gabriell0610.github.io/Projeto-TodoList/">Acesse o projeto</a>
+<a href="">Acesse o projeto</a>
