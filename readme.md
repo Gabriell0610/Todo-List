@@ -16,4 +16,4 @@ Projeto não contém responsividade, pois foi criado apenas para melhorar o conh
 
 ### Acesse o projeto pelo link abaixo
 
-<a href="">Acesse o projeto</a>
+<a href="https://todo-list-eta-two.vercel.app/">Acesse o projeto</a>
