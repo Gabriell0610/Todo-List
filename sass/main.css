@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #4E6E81;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+input,
+select {
+  padding: 0.25rem 0.5rem;
+}
+
+button {
+  padding: 0.25rem 0.5rem;
+  border: 2px solid #B46060;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #B46060;
+  color: #fff;
+}
+
+button:hover i {
+  color: #fff;
+}
+
+button i {
+  color: #B46060;
+  pointer-events: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::-moz-placeholder {
+  color: #4e4e4e;
+}
+
+input::placeholder {
+  color: #4e4e4e;
+}
+
+.todo-container {
+  background-color: #faf1de;
+  border-radius: 15px;
+  width: 500px;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  border-bottom: 1px solid #969494;
+  padding-bottom: 1rem;
+  color: #3f3f3f;
+}
+
+#todo-form {
+  padding: 1rem;
+  border-bottom: 1px solid #969494;
+  padding-bottom: 2rem;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #B46060;
+}
+
+.input-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.edit-form {
+  padding: 1rem;
+  border-bottom: 1px solid #969494;
+  padding-bottom: 2rem;
+}
+
+#cancel-btn {
+  margin-top: 1rem;
+}
+
+#tools-container {
+  display: flex;
+  padding: 1rem;
+  border-bottom: 1px solid #969494;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.search {
+  width: 60%;
+  border-right: 1px solid #464545;
+}
+
+.select {
+  padding: 0 1.1rem;
+}
+
+#select-input {
+  width: 130px;
+}
+
+.todo {
+  padding: 1rem;
+  border-bottom: 1px solid #969494;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.todo h3 {
+  color: #464545;
+  flex: 1;
+}
+.todo button {
+  margin-left: 1rem;
+}
+
+.done {
+  background-color: #89C4E1;
+}
+
+.done h3 {
+  color: #fff;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.hide {
+  display: none;
+}/*# sourceMappingURL=main.css.map */

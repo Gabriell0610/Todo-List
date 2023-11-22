@@ -1,0 +1,104 @@
+.todo-container {
+    background-color: $-white;
+    border-radius: 15px;
+    width: 500px;
+    padding: 2rem;
+}
+
+.title {
+    text-align: center;
+    border-bottom: 1px solid $-gray-ligth;
+    padding-bottom: 1rem;
+    color: #3f3f3f;
+}
+
+#todo-form {
+    padding: 1rem;
+    border-bottom: 1px solid $-gray-ligth;
+    padding-bottom: 2rem;
+
+}
+
+.label {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: $-red-ligth;
+}
+
+.input-container {
+    display: flex;
+    gap: .5rem;
+}
+
+//Edit Form
+
+.edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid $-gray-ligth;
+    padding-bottom: 2rem;
+}
+
+#cancel-btn {
+    margin-top: 1rem;
+}
+
+
+// tools section
+
+#tools-container {
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid $-gray-ligth;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+.search {
+    width: 60%;
+    border-right: 1px solid $-gray-dark;
+}
+
+.select {
+    padding: 0 1.1rem;
+}
+
+#select-input  {
+    width: 130px;
+}
+
+//Todo list section
+
+.todo {
+    padding: 1rem;
+    border-bottom: 1px solid $-gray-ligth;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    h3 {
+        color: $-gray-dark;
+        flex: 1;
+    }
+
+    button {
+        margin-left: 1rem;
+    }
+}
+
+.done {
+    background-color: $-color-done;
+}
+
+.done h3 {
+    color: $-white-normal;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+
+.hide {
+    display: none;
+}
+
